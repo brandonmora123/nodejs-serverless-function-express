@@ -2,7 +2,6 @@
 
 Aplicación web para gestionar donantes, donaciones, beneficiarios, paquetes, entregas, testimonios y tareas. Ideal para fundaciones, ONGs y organizaciones sociales.
 
-![Dashboard](https://img.alicdn.com/imgextra/i1/O1CN01o6gcoV1PqaPMz0cx0_!!6000000001892-2-tps-1180-980.png)
 
 
 
@@ -42,3 +41,4 @@ Aplicación web para gestionar donantes, donaciones, beneficiarios, paquetes, en
 git clone https://github.com/tuusuario/fundacion-app.git
 
 cd fundacion-app
+
