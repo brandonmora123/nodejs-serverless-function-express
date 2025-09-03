@@ -1,31 +1,43 @@
-# Node.js Hello World
+# 🏛️ Sistema de Gestión de Donaciones - Fundación Solidaria
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+Aplicación web para gestionar donantes, donaciones, beneficiarios, paquetes, entregas, testimonios y tareas. Ideal para fundaciones, ONGs y organizaciones sociales.
 
-## How to Use
+![Dashboard](https://img.alicdn.com/imgextra/i1/O1CN01o6gcoV1PqaPMz0cx0_!!6000000001892-2-tps-1180-980.png)
 
-You can choose from one of the following two methods to use this repository:
+> 📱 Versión móvil disponible: [Descargar App Qwen](https://chat.qwen.ai/s/6a8a14d0-8c1f-4235-a84d-741b49ffe9ee)
 
-### One-Click Deploy
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+## 📋 Funcionalidades
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
+- ✅ Registro y gestión de **donantes**
+- ✅ Gestión de **donaciones en especie y monetarias**
+- ✅ Armado de **paquetes** con productos disponibles
+- ✅ Entrega de paquetes a **beneficiarios**
+- ✅ Seguimiento de **tareas** asignadas a usuarios
+- ✅ Visualización de **testimonios**
+- ✅ Dashboard con estadísticas en tiempo real
+- ✅ Autenticación de usuarios (Administrador / Operador)
+- ✅ Alertas por vencimiento y bajo stock
 
-### Clone and Deploy
+---
+
+## 🧩 Tecnologías utilizadas
+
+| Capa | Tecnología |
+|------|-----------|
+| Frontend | React.js |
+| Backend | Node.js + Express |
+| Base de datos | MySQL |
+| Despliegue | Vercel (frontend), Render (backend), Railway (BD) |
+| Otros | Axios, Chart.js, Bootstrap, CORS |
+
+---
+
+## 🚀 Cómo ejecutar el proyecto (desarrollo)
+
+### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
-```
-
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
-```
-
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
-```
+git clone https://github.com/tuusuario/fundacion-app.git
+cd fundacion-app
